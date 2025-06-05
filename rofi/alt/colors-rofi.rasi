@@ -1,0 +1,49 @@
+//*get your rofi colors from here*//
+
+* {
+active-background: #E073F9;
+active-foreground: #FCF4F5;
+normal-background: #302C39;
+normal-foreground: #FCF4F5;
+urgent-background: #FFA798;
+urgent-foreground: #FCF4F5;
+
+alternate-active-background: #EB4577;
+alternate-active-foreground: #FCF4F5;
+alternate-normal-background: #302C39;
+alternate-normal-foreground: #FCF4F5;
+alternate-urgent-background: #302C39;
+alternate-urgent-foreground: #FCF4F5;
+
+selected-active-background: #FFA798;
+selected-active-foreground: #FCF4F5;
+selected-normal-background: #FFA798;
+selected-normal-foreground: #FCF4F5;
+selected-urgent-background: #E073F9;
+selected-urgent-foreground: #FCF4F5;
+
+background-color: #302C39;
+background: rgba(0,0,0,0.7);
+foreground: #FCF4F5;
+border-color: #E073F9;
+
+color0: #55505F;
+color1: #25194C;
+color2: #6F2264;
+color3: #B03459;
+color4: #A856BB;
+color5: #BF7D72;
+color6: #B9A8AA;
+color7: #F3E7E9;
+color8: #AAA2A3;
+color9: #312166;
+color10: #942E85;
+color11: #EB4577;
+color12: #E073F9;
+color13: #FFA798;
+color14: #F7E0E3;
+color15: #F3E7E9;
+
+
+}
+

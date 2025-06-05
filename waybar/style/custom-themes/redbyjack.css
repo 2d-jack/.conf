@@ -1,0 +1,44 @@
+/*
+ *
+ * Custom Red Palette by Jack
+ * Maintainer: MJack
+ *
+ */
+
+@define-color base      #2e1e1e; /* Dark, deep red base */
+@define-color mantle    #251818; /* Slightly lighter red than base */
+@define-color crust     #1b1111; /* Darkest red for crust */
+
+@define-color text      #f4cdd6; /* Light, desaturated red for text */
+@define-color subtext0  #c8a6ad; /* Slightly darker subtext */
+@define-color subtext1  #debac2; /* Lighter subtext */
+
+@define-color surface0  #443132; /* Muted red surface */
+@define-color surface1  #5a4547; /* Slightly lighter surface */
+@define-color surface2  #70585b; /* Even lighter surface */
+
+@define-color overlay0  #866c70; /* Desaturated red overlay */
+@define-color overlay1  #9c7f84; /* Lighter overlay */
+@define-color overlay2  #b29399; /* Lightest overlay */
+
+@define-color red       #f38ba8; /* Vibrant red (kept from original) */
+@define-color maroon    #eba0ac; /* Softer red/maroon */
+@define-color peach     #fab387; /* Warm peach, complements red */
+@define-color yellow    #f9e2af; /* Soft yellow, good for contrast */
+@define-color green     #a6e3a1; /* Desaturated green for accents (e.g., battery full) */
+@define-color teal      #94e2d5; /* Desaturated teal for accents */
+@define-color sky       #89dceb; /* Desaturated sky blue for accents */
+@define-color sapphire  #74c7ec; /* Desaturated sapphire blue for accents */
+@define-color blue      #89b4fa; /* Desaturated blue for general indicators */
+@define-color lavender  #b4befe; /* Desaturated lavender for accents */
+@define-color mauve     #cba6f7; /* Desaturated mauve for accents */
+@define-color pink      #f5c2e7; /* Desaturated pink (close to red palette) */
+@define-color flamingo  #f2cdcd; /* Very light pink/flamingo */
+@define-color rosewater #f5e0dc; /* Lightest pink */
+
+@define-color glow_red  #FF6666; /* Bright, vivid red for glowing effect */
+@define-color bright_text #FFFFFF; /* Pure white for stark contrast if needed */
+
+/* Define a default theme_base_color and theme_text_color for broader use */
+@define-color theme_base_color @base;
+@define-color theme_text_color @text;

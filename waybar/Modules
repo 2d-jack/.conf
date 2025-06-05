@@ -1,0 +1,12 @@
+//*locat your network_speed.sh's location here
+related file (waybar/network_speed.sh) and (waybar/configs/custom_config)*//
+
+
+//*custom speed meter*//
+
+"custom/network_speed": {     //custom/network_speed : put this in the config file to show the output
+  "exec": "$HOME/.config/waybar/network_speed.sh",  //location
+  "interval": 1,                           // update every 1sec
+  "return-type": "json",
+  "format": "{}"
+},

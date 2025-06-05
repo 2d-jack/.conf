@@ -1,0 +1,18 @@
+//*related files (waybar/Modules) and (waybar/network_speed.sh)*//
+
+{
+  "include": [
+  "$HOME/.config/waybar/Modules",
+  ],
+    "name": "bottombar",
+    "layer": "top",
+    "position": "bottom",
+    "height": 30,
+    "mode": "dock",
+    "exclusive": true,
+    "spacing": 2,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "reload_style_on_change": true,
+    "modules-right": ["custom/network_speed"],
+  }

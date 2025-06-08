@@ -58,6 +58,17 @@ sudo make install
 cd ~
 rm -rf /tmp/Kvantum
 
+# 🌀 SWAYNC (swaynotificationcenter)
+echo "⬇️ Installing swaync..."
+git clone https://github.com/ErikReider/SwayNotificationCenter.git /tmp/swaync
+cd /tmp/swaync
+meson setup build
+ninja -C build
+sudo ninja -C build install
+cd ~
+rm -rf /tmp/swaync
+
+
 # 🎯 Clone configuration files
 echo "📁 Cloning your config from GitHub..."
 git clone https://github.com/2d-jack/.conf.git /tmp/.conf
